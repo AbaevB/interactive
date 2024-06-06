@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <script defer src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Tabs</h1>
+        </div><!--/container-->
+    </header>
+    <section class="section">
+        <div class="container">
+            <div class="tabs-nav">
+                <ul class="tabs-nav__list">
+                    <li class="tabs-nav__item">
+                        <a href="#one" class="tabs-nav__link active">
+                            One
+                        </a>
+                    </li>
+                    <li class="tabs-nav__item">
+                        <a href="#two" class="tabs-nav__link">
+                            Two
+                        </a>
+                    </li>
+                    <li class="tabs-nav__item">
+                        <a href="#three" class="tabs-nav__link">
+                            Three
+                        </a>
+                    </li>
+                </ul>
+            </div><!--/tabs-nav-->
+            <div class="tabs-content">
+                <div id="one" class="tab-pane active faded in">
+                    <p class="tabs-text">
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod voluptatem optio quaerat adipisci voluptatum quo impedit aut at tempora fugit. 
+                    </p>
+                </div>
+                <div id="two" class="tab-pane faded">
+                    <p class="tabs-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A at voluptatum explicabo. Ipsa quidem ad aliquam autem blanditiis ex eum qui dignissimos, delectus placeat at assumenda cupiditate eos minus harum.
+                    </p>
+                </div>
+                <div id="three" class="tab-pane faded">
+                    <p class="tabs-text">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel est veritatis temporibus aperiam ratione voluptates? Ipsum veritatis voluptas laboriosam consequuntur enim exercitationem quam accusamus? Ea?
+                    </p>
+                </div>
+            </div>
+        </div><!--/container-->
+    </section>
+</body>
+
+</html>
