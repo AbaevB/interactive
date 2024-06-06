@@ -92,3 +92,7 @@ const swiper = new Swiper('.swiper', {
 ## Accordion
 
  Для работы плагина необходим *jQuery* и [jQueryUI](https://jqueryui.com/)
+
+## Tabs
+
+Кастомный таб с плавными переходами, написанный на *jQuery*.
