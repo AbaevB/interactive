@@ -1,1 +1,54 @@
- 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>slider</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script defer src="js/swiper-bundle.min.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <h1>Слайдер JS</h1>
+  </header>
+  <main class="main">
+    <section class="section">
+      <div class="container">
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="img/hero-1.jpg" alt="1"></div>
+            <div class="swiper-slide"><img src="img/hero-2.jpg" alt="2"></div>
+            <div class="swiper-slide"><img src="img/hero-3.jpg" alt="3"></div>
+            <div class="swiper-slide"><img src="img/hero-1.jpg" alt="1"></div>
+            <div class="swiper-slide"><img src="img/hero-2.jpg" alt="2"></div>
+            <div class="swiper-slide"><img src="img/hero-3.jpg" alt="3"></div>
+            ...
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev" role="button">A</div>
+          <div class="swiper-button-next" role="button">B</div>
+
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+        <h2>new</h2>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
